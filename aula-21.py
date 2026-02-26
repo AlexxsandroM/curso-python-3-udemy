@@ -15,3 +15,6 @@ Conversion flags - !r !s !a
 variavel = 'ABC'
 print(f'{variavel}')
 print(f'{variavel: >20}')
+print(f'{variavel: ^20}')
+print(f'{variavel: <20}')
+print(f'{10000.81818:0=+10,.1f}')
